@@ -1,0 +1,13 @@
+---
+package: 'openldap'
+prefix: '/etc/openldap'
+owner: 'root'
+group: '0'
+config: 'ldap.conf'
+nslcd_conf: '/etc/nslcd.conf'
+nslcd_package: 'nss-pam-ldapd'
+nslcd_service: 'nslcd'
+sssd_conf: '/etc/sssd/sssd.conf'
+sssd_package: 'sssd'
+sssd_service: 'sssd'
+
