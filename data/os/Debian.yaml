@@ -1,12 +1,12 @@
 ---
-package: 'ldap-utils'
-prefix: '/etc/ldap'
-owner: 'root'
-group: 'root'
-config: 'ldap.conf'
-nslcd_conf: '/etc/nslcd.conf'
-nslcd_package: ['nslcd', 'libnss-ldapd']
-nslcd_service: 'nslcd'
-sssd_conf: '/etc/sssd/sssd.conf'
-sssd_package: ['sssd', 'libnss-sss']
-sssd_service: 'sssd'
+ldap::package: 'ldap-utils'
+ldap::prefix: '/etc/ldap'
+ldap::owner: 'root'
+ldap::group: 'root'
+ldap::config: 'ldap.conf'
+ldap::nslcd_conf: '/etc/nslcd.conf'
+ldap::nslcd_package: ['nslcd', 'libnss-ldapd']
+ldap::nslcd_service: 'nslcd'
+ldap::sssd_conf: '/etc/sssd/sssd.conf'
+ldap::sssd_package: ['sssd', 'libnss-sss']
+ldap::sssd_service: 'sssd'
